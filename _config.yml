@@ -1,0 +1,7 @@
+title: Vec's Site 
+description: Eyedeas.
+baseurl: "" 
+url: "https://aymanlar.github.io"
+# Build settings
+markdown: kramdown
+theme: minima
