@@ -3,7 +3,7 @@ layout: post
 title: "Lastspot, Exploring the Wonders"
 date: 2024-09-27
 categories: [blogs]
-tags: ['music','projects']
+tags: [music,projects]
 ---
 
 ## Context
