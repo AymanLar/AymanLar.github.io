@@ -19,6 +19,7 @@ So, how did this idea come to mind? Basically, I wanted to convert my Last.fm pl
 Who could solve this problem better than a hacky Python script? I made that script, but something felt off—people should be able to use this too. So, I decided to create a the web version of the script to make it convenient for everyone.
 
 ## scenarios for using Lastspot:
+- make playlists for your self 
 - **Surprising Friends**: Create playlists for your friends.it's fun
 - **Know Your Friends Better**: explore your friends' music tastes. It’s a fun way to connect on a deeper level! 
 
