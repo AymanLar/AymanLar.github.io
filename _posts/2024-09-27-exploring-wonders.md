@@ -1,5 +1,5 @@
 ---
-layout: first post
+layout: post
 title: "Exploring the Wonders"
 date: 2024-09-27
 categories: [thoughts]
