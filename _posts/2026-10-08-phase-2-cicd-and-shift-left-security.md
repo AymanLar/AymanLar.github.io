@@ -1,6 +1,7 @@
 ---
 title: "Phase 2 — A CI/CD pipeline that actually shifts security left"
 date: 2026-10-08
+categories: [projects]
 tags: [portfolio, github-actions, semgrep, gitleaks, trivy, shift-left]
 ---
 

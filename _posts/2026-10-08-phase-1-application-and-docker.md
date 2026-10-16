@@ -1,6 +1,7 @@
 ---
 title: "Phase 1 — Building SecureCloud: a runnable, boring-by-design cloud platform"
 date: 2026-10-08
+categories: [projects]
 tags: [portfolio, python, fastapi, nextjs, docker, postgresql]
 ---
 

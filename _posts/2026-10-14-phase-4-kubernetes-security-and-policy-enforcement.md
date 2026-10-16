@@ -2,6 +2,7 @@
 title: "Phase 4 — Kubernetes Security & Policy Enforcement (Kyverno)"
 description: "Turning cluster security guidelines into enforced admission policy: eight Kyverno policies tested with bad/good manifests, an audit-to-enforce workflow, and a least-privilege RBAC review."
 date: 2026-10-14
+categories: [projects]
 tags:
   - kubernetes
   - kyverno

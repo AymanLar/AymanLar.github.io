@@ -2,6 +2,7 @@
 title: "Phase 3 — Local Kubernetes Deployment (k3d)"
 description: "Running the SecureCloud full stack on a single-node k3d cluster with non-root workloads, secrets boundary, ingress, and verifiable end-to-end checks."
 date: 2026-10-10
+categories: [projects]
 tags:
   - kubernetes
   - k3d

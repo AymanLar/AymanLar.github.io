@@ -2,7 +2,7 @@
 layout: post
 title: "lastlist, Exploring the Wonders"
 date: 2024-09-27
-categories: [blogs]
+categories: [projects]
 tags: [music,projects]
 ---
 
