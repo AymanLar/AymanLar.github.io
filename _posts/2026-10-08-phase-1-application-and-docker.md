@@ -135,33 +135,6 @@ The dashboard's kicker is the compose health gating:
 
 One command, and the whole stack comes up in the right order every time.
 
-## Things that went wrong (the honest part)
-
-This is the section I actually want to remember, because it's where the
-"documented means run" rule earned its keep.
-
-**1. Docker's CLI wasn't on PATH.** `docker` was nowhere to be found — Docker
-Desktop's real binary lives under its install directory. A quick `where docker`
-after checking the Desktop install location fixed it. Fine. Lesson: environment
-discovery before assuming tooling is broken.
-
-**2. I killed Docker Desktop by mistake.** A leftover `next dev` server was
-holding port 3000, so I ran a PowerShell `Stop-Process` on "the process owning
-the port". It turned out that process was Docker Desktop's backend, not the
-dev server. Docker daemon went down; I restarted Docker Desktop and the
-`restart: unless-stopped` containers came back. Lesson: verify the process
-identity before killing something by port, especially when the port is
-published by Docker itself.
-
-**3. The README was wrong, and verification caught it.** My first draft of the
-README said the backend "fall[s] back to SQLite automatically" when no
-`DATABASE_URL` is set. That was a nice story — and it was a lie. `DATABASE_URL`
-is *required*. The verification pass that I'd committed to caught the
-inaccuracy, and I fixed the README to describe what the code actually does
-(dev instructions now point `DATABASE_URL` at a local SQLite file explicitly,
-which is the real, working workflow). Lesson: write docs from what the code
-does, and re-run what you document.
-
 ## Verification discipline
 
 Phase 1 shipped with a verification table in the README, and every row was
